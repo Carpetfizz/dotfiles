@@ -3,10 +3,15 @@
 ## Installation
 
 ### Requirements
-1. [neovim](https://neovim.io)
-2. [alacritty](https://alacritty.org)
-3. [GNU stow](https://www.gnu.org/software/stow/)
+* [neovim](https://neovim.io)
+* [tmux](https://github.com/tmux/tmux)
+* [alacritty](https://alacritty.org)
+* [GNU stow](https://www.gnu.org/software/stow/)
 
 ```
-stow --target=/Users/ajay neovim
+# Clone dotfiles to home directory
+# Install (symlink) dotfiles
+stow zshell
+stow tmux
+stow neovim
 ```
