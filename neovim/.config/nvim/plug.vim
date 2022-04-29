@@ -12,6 +12,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " nvim-ts-rainbow (rainbow parenthesis for treesitter)
 Plug 'p00f/nvim-ts-rainbow'
+" vim-tmux-navigator
+Plug 'christoomey/vim-tmux-navigator'
 " Color Schemes
 " spaceduck
 Plug 'pineapplegiant/spaceduck', { 'branch': 'dev' }
